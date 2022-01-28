@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #66c3d0;
+}
+.wave-1{
+    animation: wave-1 4s ease-in-out infinite alternate;
+}
+.wave-2{
+    animation: wave-2 3.4s ease-in-out infinite alternate;
+}
+.wave-3{
+    animation: wave-3 4.5s ease-in-out infinite alternate;
+}
+
+@keyframes wave-1 {
+    0%{
+        transform: scaleX(2);
+    }
+    50%{
+        transform: scaleX(1.5);
+    }
+    100%{
+        transform: scaleX(2);
+    }
+}
+
+@keyframes wave-2 {
+    0%{
+        transform: scaleX(2);
+    }
+    50%{
+        transform: scaleX(1.5);
+    }
+    100%{
+        transform: scaleX(2);
+    }
+}
+
+@keyframes wave-3 {
+    0%{
+        transform: scaleX(2);
+    }
+    50%{
+        transform: scaleX(1.5);
+    }
+    100%{
+        transform: scaleX(2);
+    }
+}
